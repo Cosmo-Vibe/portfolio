@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 135.59 109.3">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        letter-spacing: .52em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: url(#Dégradé_sans_nom_22);
+        mix-blend-mode: multiply;
+        opacity: .65;
+        stroke: #4169e1;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .cls-7 {
+        fill: #4169e1;
+        font-family: BodoniMT-BoldItalic, 'Bodoni MT';
+        font-size: 17px;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="11" dy="11"/>
+      <feGaussianBlur result="blur" stdDeviation="11"/>
+      <feFlood flood-color="#000" flood-opacity=".44"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Dégradé_sans_nom_22" data-name="Dégradé sans nom 22" cx="51.44" cy="40.98" fx="51.44" fy="40.98" r="107.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".14" stop-color="#e4e4e4" stop-opacity=".78"/>
+      <stop offset=".42" stop-color="#9e9e9e" stop-opacity=".72"/>
+      <stop offset=".83" stop-color="#303030" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".6"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-1">
+    <g id="Calque_1" data-name="Calque 1">
+      <g class="cls-3">
+        <path class="cls-6" d="m102.76,62.08V12.12c0-6.6-5.4-12-12-12H12.12C5.53.12.12,5.52.12,12.12v59.23c0,6.6,5.4,12,12,12h66.64c7.66,16.84,27.44,24.64,56.17,25.79-17.08-7.53-29.23-22.23-32.17-47.07Z"/>
+        <text class="cls-7" transform="translate(12.73 27.92)"><tspan x="0" y="0">Cli</tspan><tspan class="cls-5" x="23.91" y="0">c</tspan><tspan x="32.07" y="0">k</tspan><tspan class="cls-4" x="41.29" y="0"> </tspan><tspan x="54.24" y="0">me </tspan><tspan x="0" y="20.4">to</tspan><tspan class="cls-2" x="15.59" y="20.4"> </tspan><tspan class="cls-5" x="19.37" y="20.4">g</tspan><tspan x="28.42" y="20.4">o</tspan><tspan class="cls-2" x="37.63" y="20.4"> </tspan><tspan x="41.41" y="20.4">ba</tspan><tspan class="cls-5" x="60.21" y="20.4">c</tspan><tspan x="68.38" y="20.4">k </tspan><tspan x="21.12" y="40.8">UP !</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
