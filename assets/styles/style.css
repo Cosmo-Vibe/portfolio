@@ -66,13 +66,15 @@ header {
     border-radius: 25px;
     font-weight: 800;
     padding: 5px;
-    transition: 1s;
 }
 
 .navigationBar .navigationLinks a:hover {
     color: rgb(60, 26, 26);
     font-weight: 600;
     background-color: royalblue;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 5px;
     border-radius: 25px;
     transition: 1s;
     padding: 3px;
@@ -154,6 +156,20 @@ header {
     .navigationBar .navigationLinks ul li {
         margin: 25px 0px;
         font-size: larger;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .navigationBar .logo {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .navigationBar .burgerMenu {
+        left: 25px;
     }
 }
 
@@ -384,7 +400,7 @@ header {
 @media screen and (max-width: 900px) {
     .carousel {
         position: absolute;
-        top: 15%;
+        top: 28%;
         left: 10%;
         width: 75%;
         height: 75%;
@@ -400,6 +416,38 @@ header {
 
     .slider-nav {
         display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .carousel {
+        top: 25%;
+        width: 65%;
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .carousel {
+        top: 15%;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .carousel {
+        top: 15%;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .carousel {
+        top: 10%;
+        width: 75%;
+        height: 75%;
     }
 }
 
@@ -423,21 +471,71 @@ header {
     top: 250px;
 }
 
+
 @media screen and (max-width: 900px) {
     .sujet h1 {
         left: 10%;
         right: 10%;
-        top: 600px;
+        top: 115%;
     }
     
     .sujet p {
         left: 10%;
         right: 10%;
-        top: 680px;
+        top: 125%;
         margin-bottom: 5rem;
     }
 }
 
+@media screen and (max-width: 750px) {
+    .sujet h1 {
+        top: 100%;
+    }
+    
+    .sujet p {
+        top: 110%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .sujet h1 {
+        top: 95%;
+    }
+    
+    .sujet p {
+        top: 105%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .sujet h1 {
+        top: 90%;
+    }
+    
+    .sujet p {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sujet h1 {
+        top: 80%;
+    }
+    
+    .sujet p {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sujet h1 {
+        top: 70%;
+    }
+    
+    .sujet p {
+        top: 85%;
+    }
+}
 
 /* --------Sujet--------------- */
 
