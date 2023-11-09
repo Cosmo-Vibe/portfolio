@@ -423,6 +423,21 @@ header {
     top: 250px;
 }
 
+@media screen and (max-width: 900px) {
+    .sujet h1 {
+        left: 10%;
+        right: 10%;
+        top: 600px;
+    }
+    
+    .sujet p {
+        left: 10%;
+        right: 10%;
+        top: 680px;
+        margin-bottom: 5rem;
+    }
+}
+
 
 /* --------Sujet--------------- */
 
